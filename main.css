@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dadde1;
+}
+
+#div-form{
+    width: 280px;
+    height: 260px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+
+}
+.text-type{
+    padding: 10px 70px 10px 5px;
+    margin-top: 10px;
+    border: 1px solid #dadde1;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.text-type:focus{
+    border: 1px solid blue;
+}
+.form-input{
+    margin: 0 auto;
+}
+#login-btn{
+    width: 246px;
+    margin-top: 14px;
+    height: 34px;
+    border: 0;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all 0.2s ease 0s;
+}
+#login-btn:hover{
+    filter: brightness(.94);
+}
+.forgot-link{
+    margin: 7px auto 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.forgot-link:hover{
+    text-decoration: underline;
+}
+
+.line-hr{
+    width: 246px;
+    margin: 20px auto 0;
+    border-bottom: 1px solid #dadde1;
+}
+.createacc-btn{
+    width: 140px;
+    height: 34px;
+    margin: 20px auto 0;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #42b72a;
+}
+.createacc-btn:hover{
+    filter: brightness(.94);
+}
